@@ -1,85 +1,30 @@
 <!DOCTYPE html>
 <html>
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<style>
-* {
-  box-sizing: border-box;
-}
-.menu {
-  float: left;
-  width: 20%;
-}
-.menuitem {
-  padding: 8px;
-  margin-top: 7px;
-  border-bottom: 1px solid #f1f1f1;
-}
-.main {
-  float: left;
-  width: 60%;
-  padding: 0 20px;
-  overflow: hidden;
-}
-.right {
-  background-color: lightblue;
-  float: left;
-  width: 20%;
-  padding: 10px 15px;
-  margin-top: 7px;
-}
+<title>Kawartha Trails</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<body>
 
-@media only screen and (max-width:800px) {
-  /* For tablets: */
-  .main {
-    width: 80%;
-    padding: 0;
-  }
-  .right {
-    width: 100%;
-  }
-}
-@media only screen and (max-width:500px) {
-  /* For mobile phones: */
-  .menu, .main, .right {
-    width: 100%;
-  }
-}
-</style>
-</head>
-<body style="font-family:Verdana;">
-
-<div style="background-color:#f1f1f1;padding:15px;">
-  <h1>Cinque Terre</h1>
-  <h3>Resize the browser window</h3>
-</div>
-
-<div style="overflow:auto">
-  <div class="menu">
-    <div class="menuitem">The Walk</div>
-    <div class="menuitem">Transport</div>
-    <div class="menuitem">History</div>
-    <div class="menuitem">Gallery</div>
-  </div>
-
-  <div class="main">
-    <h2>The Walk</h2>
-    <p>The walk from Monterosso to Riomaggiore will take you approximately two hours, give or take an hour depending on the weather conditions and your physical shape.</p>
-    <img src="../photos/forest-bridge-background.jpg" style="width:100%">
-  </div>
-
-  <div class="right">
-    <h2>What?</h2>
-    <p>Cinque Terre comprises five villages: Monterosso, Vernazza, Corniglia, Manarola, and Riomaggiore.</p>
-    <h2>Where?</h2>
-    <p>On the northwest cost of the Italian Riviera, north of the city La Spezia.</p>
-    <h2>Price?</h2>
-    <p>The Walk is free!</p>
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-wide w3-padding w3-card">
+    <a href="#home" class="w3-bar-item w3-button"><b>Kawartha</b> Trails</a>
+    <!-- Float links to the right. Hide them on small screens -->
+    <div class="w3-right w3-hide-small">
+      <a href="#projects" class="w3-bar-item w3-button">Projects</a>
+      <a href="#about" class="w3-bar-item w3-button">About</a>
+      <a href="#contact" class="w3-bar-item w3-button">Contact</a>
+    </div>
   </div>
 </div>
 
-
-<div style="background-color:#f1f1f1;text-align:center;padding:10px;margin-top:7px;font-size:12px;"> This web page is a part of a demonstration of fluid web design made by w3schools.com. Resize the browser window to see the content respond to the resizing.</div>
+<!-- Header -->
+<header class="w3-display-container w3-content w3-wide" style="max-width:3000px;" id="home">
+  <img class="w3-image" src="./photos/kawartha-autumn.jpg" alt="Bridge" width="4000" height="2666">
+  <div class="w3-display-middle w3-margin-top w3-center">
+    <h1 class="w3-xxlarge w3-text-white"><span class="w3-padding w3-black w3-opacity-min"><b>Kawartha</b></span> <span class="w3-hide-small w3-text-light-grey">Trails</span></h1>
+  </div>
+</header>
 
 </body>
-</html>
