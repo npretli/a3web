@@ -1,19 +1,77 @@
 <!DOCTYPE html>
 <html>
-<head>
 <title>QEII Wildlands</title>
-</head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+.dropbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+</style>
+
+
+
 <body>
 
-<h1>QEII Wildlands</h1>
-<h2>Paragraph about Region</h2>
-<p>lorem ipsum</p>
-<h2>Paragraph about QEII Wildlands</h2>
-<p>lorem Ipsum</p>
-<h2>Paragraph about Hiking Trails</h2>
-<p>Lorem Ipsum</p>
-<h2>Paragraph about Hiking Conditions</h2>
-<p>Paragraph text</p></p0>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-wide w3-padding w3-card">
+    <a href="#home" class="w3-bar-item w3-button"><b>Kawartha</b> Trails</a>
+    <!-- Float links to the right. Hide them on small screens -->
+    <div class="w3-right w3-hide-small">
+      <a href="#projects" class="w3-bar-item w3-button">Projects</a>
+      <button class="dropbtn">Projects</button>
+      <div class="dropdownContent">
+        <a href="#">Link 1</a>
+        <a href="#">Link 2</a>
+        <a href="#">Link 3</a>
+      </div>
+      <a href="#about" class="w3-bar-item w3-button">About</a>
+      <a href="#contact" class="w3-bar-item w3-button">Contact</a>
+    </div>
+  </div>
+</div>
+
+<!-- Header -->
+<header class="w3-display-container w3-content w3-wide" style="max-width:3000px;" id="home">
+  <img class="w3-image" src="./photos/kawartha-autumn.jpg" alt="Bridge" width="4000" height="2666">
+  <div class="w3-display-middle w3-margin-top w3-center">
+    <h1 class="w3-xxlarge w3-text-white"><span class="w3-padding w3-black w3-opacity-min"><b>Kawartha</b></span> <span class="w3-hide-small w3-text-light-grey">Trails</span></h1>
+  </div>
+</header>
 
 </body>
-</html>
