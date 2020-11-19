@@ -1,5 +1,7 @@
 body {
-  background-image: #699c3e
-     }
+  background-color: #699c3e; 
+	}
 
-
+img {
+  max-width: 100%;
+  height: auto;
