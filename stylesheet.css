@@ -1,7 +1,7 @@
 /*CSS for GEOM101 Assignment 3*/
 /*Creator for each section will be stated in comment above code*/
 
-/*General formatting for the body if the page*/
+/*General formatting for the body of pages*/
 body, html {
   height: 100%;
   margin: 0;
@@ -12,7 +12,8 @@ body, html {
 /*Site Header
 by: Hayley Kennington
 November 23, 2020
-Idea taken from https://www.thehikinglife.com/, code modified from https://www.w3schools.com/howto/howto_css_hero_image.asp*/
+Idea taken from https://www.thehikinglife.com/, 
+code modified from https://www.w3schools.com/howto/howto_css_hero_image.asp*/
 .header-image {
   background-image: url("photos/boardwalk.jpg");
   height: 40%;
@@ -33,64 +34,88 @@ Idea taken from https://www.thehikinglife.com/, code modified from https://www.w
   font-size: 25px;
   text-shadow: 1px 1px 2px black;
 }
-/*Site Header End*/
 
-h5 {
+h2 {
   font-family: Tahoma, Geneva, sans-serif
 }
 
-/*Text blocks*/
-.block {
+h6 {
+  font-family: Tahoma, Geneva, sans-serif
+}
+
+.b {
   color:white;
-  font-size:20px;
+  font-size:30px;
   text-align:center;
   border: 5px solid black;
   padding: 10px;
   margin: 5px;
-  background-color: rgb(141, 192, 162);
+  background-color: rgb(84, 97, 126);
   font-family: "Times New Roman", Times, serif;
-   }
+   
+}
 
 .responsive {
   width: 100%;
   height: auto;
 }
 
-.header {
-  text-align:left;
-}
-
-/*Nav bar*/
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color:  rgb(84, 97, 126);
+  background-color: rgb(84, 97, 126);
   text-align: center;
   position: -webkit-sticky; /* Safari */
-  position: static;
+  position: sticky;
   top: 0;
 }
 
-/*Links*/
 li {
-  float: left;
+  float: center;
 }
 
 li a {
   display: block;
   color: white;
   text-align:center;
-  font-size: 14px;
-  padding: 12px 12px;
+  font-size: 15px;
+  padding: 14px 16px;
   text-decoration: none;
 }
 
 li a:hover {
-  background-color:  rgb(66, 77, 100);
+  background-color: #2ba33f;
 }
 
 .active {
-  background-color:  rgb(66, 77, 100);
+  background-color: #000000;
 }
+#trailtitle1{
+  background-color: #35576E; 
+  border: none;
+  color: white;
+  text-align: left;
+  text-decoration: none;
+  font-size: 16px;
+  width: 100%;
+  padding: 2px;
+}
+#trailtitle2{
+  background-color: #35576E; 
+  border: none;
+  color: white;
+  text-align: left;
+  text-decoration: none;
+  font-size: 16px;
+  width: 100%;
+  padding: 2px;
+}
+#trailtext1{
+  display:none
+}
+#trailtext2{
+  display:none 
+}
+/*hide .div element to be faded; sourced from https://stackoverflow.com/questions/15753361/starting-jquery-fadetoggle-hiddend*/
