@@ -98,14 +98,15 @@ li a {
 }
 
 li a:hover {
+<<<<<<< Updated upstream
   background-color: #cd6e51;
-}
+======
 
 .active {
   background-color: #000000;
 }
 #trailtitle1{
-  background-color: #35576E; 
+  background-color: #D3A793; 
   border: none;
   color: white;
   text-align: left;
@@ -115,7 +116,7 @@ li a:hover {
   padding: 2px;
 }
 #trailtitle2{
-  background-color: #35576E; 
+  background-color: #D3A793; 
   border: none;
   color: white;
   text-align: left;
