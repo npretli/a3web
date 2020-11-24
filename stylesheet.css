@@ -54,6 +54,15 @@ h6 {
   height: auto;
 }
 
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: lightblue;
+  color: black;
+  text-align: center;
+  
 ul {
   list-style-type: none;
   margin: 0;
