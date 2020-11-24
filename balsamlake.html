@@ -2,6 +2,7 @@
 <html>
     <head>
         <title>Balsam Lake Trails</title>
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
     <style>
         #trailtitle1{
             background-color: #35576E; 
@@ -23,10 +24,10 @@
             width: 100%;
             padding: 2px;
         }
-        #lookout{
+        #trailtext1{
             display:none
         }
-        #plntn{
+        #trailtext2{
             display:none 
         }
         /*hide .div element to be faded; sourced from https://stackoverflow.com/questions/15753361/starting-jquery-fadetoggle-hiddend*/
@@ -36,12 +37,12 @@
     <script>
     $(document).ready(function(){
         $("#trailtitle1").click(function(){
-            $("#lookout").fadeToggle();
+            $("#trailtext1").fadeToggle();
         });
     });
     $(document).ready(function(){
         $("#trailtitle2").click(function(){
-            $("#plntn").fadeToggle();
+            $("#trailtext2").fadeToggle();
         });
     });
         </script>
@@ -54,14 +55,14 @@
         <!--fix italics, bolding later--> 
         <button id="trailtitle1">Lookout Trail</button>
         <br><br>
-        <div id="lookout"><b>Lookout Trail</b> is a 2.6-kilometer trail that takes approximately one and a half hours to walk. Along this trail, you will walk over <i>eskers</i> - ridges of gravel and sediment formed 10,000 years ago by meltwater from the Wisconsin Glacier. Natural landscapes visible along the trail include cedar swamp, deciduous forest, and open meadow. The ‘lookout’ is the highest point on the trail and has a stunning panorama view of the surrounding forest.
+        <div id="trailtext1"><b>Lookout Trail</b> is a 2.6-kilometer trail that takes approximately one and a half hours to walk. Along this trail, you will walk over <i>eskers</i> - ridges of gravel and sediment formed 10,000 years ago by meltwater from the Wisconsin Glacier. Natural landscapes visible along the trail include cedar swamp, deciduous forest, and open meadow. The ‘lookout’ is the highest point on the trail and has a stunning panorama view of the surrounding forest.
         <br><br>
             <img src="..\a3web\photos\Balsam-Lake-Lookout-Nature-Lover.jpg">
         </div><br>
 
         <button id="trailtitle2">Plantation Trail</button>
         <br><br>
-        <div id="plntn"><b>Plantation Trail</b> is a 4.2-km trail – about a two-hour walk. This trail will take you through landscapes modified by humans, including some of the region’s earliest settlers. You will see old logging sites and farm fields, as well as reforested plantations and a pond teeming with wildlife. </div>
+        <div id="trailtext2"><b>Plantation Trail</b> is a 4.2-km trail – about a two-hour walk. This trail will take you through landscapes modified by humans, including some of the region’s earliest settlers. You will see old logging sites and farm fields, as well as reforested plantations and a pond teeming with wildlife. </div>
         
         <!--button fade toggle adapted from w3 schools: https://www.w3schools.com/jquery/jquery_fade.asp-->
         
