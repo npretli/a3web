@@ -1,9 +1,22 @@
+/*CSS for GEOM101 Assignment 3*/
+/*Creator for each section will be stated in comment above code*/
+
+/*General formatting for the body of pages*/
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 15px;
+}
+
 /*Site Header
 by: Hayley Kennington
-November 23, 2020*/
+November 23, 2020 9am
+Idea taken from https://www.thehikinglife.com/, 
+code modified from https://www.w3schools.com/howto/howto_css_hero_image.asp*/
 .header-image {
   background-image: url("photos/boardwalk.jpg");
-  height: 50%;
+  height: 40%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -11,7 +24,7 @@ November 23, 2020*/
 }
 
 .header-text {
-    font-family:'century gothic';
+  font-family:'century gothic';
   text-align: center;
   position: absolute;
   top: 50%;
@@ -20,13 +33,6 @@ November 23, 2020*/
   color: white;
   font-size: 25px;
   text-shadow: 1px 1px 2px black;
-}
-/*Site Header End*/
-
-body {
-  background-color: #118bdd; 
-  font-size: 50px;
-  text-align: center;
 }
 
 h2 {

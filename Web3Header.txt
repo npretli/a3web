@@ -1,17 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-<<<<<<< HEAD
-=======
 <!--CSS Stylesheet-->
 <link rel="stylesheet" type="text/css" href="stylesheet.css">
 
 <title>Kawartha Outdoors</title>
 
->>>>>>> d93fc042bc5950afbeb6ccb508967dbdde590043
 </head>
-<!-- Single external CSS document --> 
-<link rel="stylesheet" href="stylesheet.css">
 <body>
   <!---Site Header
   by: Hayley Kennington
@@ -22,7 +17,7 @@
       <p>Your Guide to What's Local & Outdoors</p>
     </div>
   </div>
-  <!--Site Header End November 24, 2020 9:11 a.m.-->
+  <!--Site Header End-->
 
 <ul>
   <li><a class="active" href="index.html">Home</a></li>
@@ -36,16 +31,3 @@
   <li><a href="kenreid.html">Ken Reid Conservation Area</a></li>
 </ul>
 
-
-<img src="./photos/kawartha-autumn.jpg" alt="Cinque Terre" class="responsive" width="4000" height="2666">
-
-
-<p></p>
-<div class="block">
-<p>Welcome - you've come to the right place for the best of what the picturesque Kawartha Lakes region of Ontario has to offer.</p>
-</div>
-<div class="footer">
-  <p>Footer</p>
-</div>
-</body>
-</html>
