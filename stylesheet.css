@@ -9,13 +9,13 @@ h2 {
 }
 
 h6 {
-font-family: Tahoma, Geneva, sans-serif
+  font-family: Tahoma, Geneva, sans-serif
 }
 
 .b {
   color:white;
   font-size:30px;
-  align:center;
+  text-align:center;
   border: 5px solid black;
   padding: 10px;
   margin: 5px;
@@ -61,3 +61,30 @@ li a:hover {
 .active {
   background-color: #000000;
 }
+#trailtitle1{
+  background-color: #35576E; 
+  border: none;
+  color: white;
+  text-align: left;
+  text-decoration: none;
+  font-size: 16px;
+  width: 100%;
+  padding: 2px;
+}
+#trailtitle2{
+  background-color: #35576E; 
+  border: none;
+  color: white;
+  text-align: left;
+  text-decoration: none;
+  font-size: 16px;
+  width: 100%;
+  padding: 2px;
+}
+#trailtext1{
+  display:none
+}
+#trailtext2{
+  display:none 
+}
+/*hide .div element to be faded; sourced from https://stackoverflow.com/questions/15753361/starting-jquery-fadetoggle-hiddend*/
