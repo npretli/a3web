@@ -132,3 +132,55 @@ li a:hover {
   display:none 
 }
 /*hide .div element to be faded; sourced from https://stackoverflow.com/questions/15753361/starting-jquery-fadetoggle-hiddend*/
+
+/*Relative links (with pictures) at the bottom of the main page
+by: Nicholas Pretli
+November 24, 2020 10:40 p.m. 
+.left {
+  position: absolute;
+  left: 125px;
+  width: 75px;
+  text-align:center;
+  border: 3px solid black;
+  padding: 10px;
+}
+
+.centre-left {
+  position: absolute;
+  left: 275px;
+  width: 75px;
+  text-align:center;
+  border: 3px solid black;
+  padding: 10px;
+}
+
+.centre {
+  position: absolute;
+  left: 425px;
+  width: 75px;
+  text-align:center;
+  border: 3px solid black;
+  padding: 10px;
+}
+
+.centre-right {
+  position: absolute;
+  left: 575px;
+  width: 75px;
+  text-align:center;
+  border: 3px solid black;
+  padding: 10px;
+}
+
+.right {
+  position: absolute;
+  left: 725px;
+  width: 75px;
+  text-align:center;
+  border: 3px solid black;
+  padding: 10px;
+}
+  
+  
+  
+  
