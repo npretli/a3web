@@ -45,6 +45,7 @@ h6 {
   font-family: Tahoma, Geneva, sans-serif
 }
 
+
 .b {
   color:white;
   font-size:30px;
@@ -139,8 +140,9 @@ li a:hover {
   by: Nicholas Pretli
   December 3, 2020 */
 
-.main-container {
-  background-color: #7FFFD4; 
+
+div.a {
+  background-color: #EEE8AA; 
   width: 100%;
   border-style: solid;
   border-width:2px;
@@ -149,5 +151,12 @@ li a:hover {
   margin: left;
     }
 
-  
+  div {
+  background-color: #EEE8AA; /* This is a block element that acts as the backdrop for the majority of the webpage's content. The corresponding colour is pale golden rod. */
+  width: 70%;
+  border-style: solid;
+  border-width:4px;
+  text-align: left;
+  padding: 35px;
+  margin: auto;
   
