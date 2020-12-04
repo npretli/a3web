@@ -37,59 +37,6 @@ code modified from https://www.w3schools.com/howto/howto_css_hero_image.asp*/
   text-shadow: 1px 1px 2px black;
 }
 
-header-image-human {
-  background-image: url("photos/human-history-3.jpg");
-  height: 40%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-}
-
-.header-image-balsam {
-  background-image: url("photos/Balsam-Lake-4-Kawartha-Realty.jpg");
-  height: 40%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-}
-
-.header-image-indian-point {
-  background-image: url("photos/indian-point-1.jpg");
-  height: 40%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-  
-.header-image-natural {
-  background-image: url("photos/lovesick-lake-1.jpg");
-  height: 40%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-}
-
-.header-image-about {
-  background-image: url("about.jpg");
-  height: 40%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-}
-
-
-.header-image-kenreid {
-  background-image: url("about.jpg");
-  height: 40%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-}
 
 h2 {
   font-family: Tahoma, Geneva, sans-serif
@@ -206,4 +153,55 @@ div {
   margin: left;
     }
 	
-.
+header-image-human {
+  background-image: url("photos/human-history-3.jpg");
+  height: 40%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.header-image-balsam {
+  background-image: url("photos/Balsam-Lake-4-Kawartha-Realty.jpg");
+  height: 40%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.header-image-indian-point {
+  background-image: url("photos/indian-point-1.jpg");
+  height: 40%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  
+.header-image-natural {
+  background-image: url("photos/lovesick-lake-1.jpg");
+  height: 40%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.header-image-about {
+  background-image: url("about.jpg");
+  height: 40%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+
+.header-image-kenreid {
+  background-image: url("about.jpg");
+  height: 40%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
