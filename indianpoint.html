@@ -1,31 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<!--CSS Stylesheet-->
+<!-- Single external CSS document --> 
 <link rel="stylesheet" type="text/css" href="stylesheet.css">
-
-<title>Indian Point Provincial Park</title>
-
+<!-- This is the title of the webpage -->
+<title>Kawartha Outdoors</title>
 </head>
 <body>
   <!---Site Header
   by: Hayley Kennington
   November 23, 2020 -->
-  <div class="header-image-indian-point">
+<body>
+<div class="header-image-indian-point">
     <div class="header-text">
-      <h1>Indian Point Provincial Park</h1>
+      <h1><i>Indian Point Provincial Park</i></h1>
     </div>
   </div>
-  <!--Site Header End-->
+  <!--Site Header End November 24, 2020 9:15 a.m.-->
 
-<ul>
-  <li><a href="index.html">Home</a></li>
-  <li><a href="about.html">About</a></li>
-  <li><a href="regionalinfo.html">Regional Info</a></li>
-  <li><a href="humanhistory.html">Human History</a></li>
-  <li><a href="naturalhistory.html">Natural History</a></li>
-  <li><a href="balsamlake.html">Balsam Lake Provincial Park</a></li>
-  <li><a href="indianpoint.html">Indian Point Provincial Park</a></li>
-  <li><a href="qeiiwildlands.html">Queen Elizabeth II Wildlands Provincial Park</a></li>
-  <li><a href="kenreid.html">Ken Reid Conservation Area</a></li>
-</ul>
+ <!---Site Header
+  by: Nicholas Pretli
+  December 4th, 2020 -->
+
+<div class="topnav" id="myTopnav">
+  <a href="#home" class="active">Home</a>
+  <a href="#regionalinfo">Regional Info</a>
+  <a href="#about">Natural History</a>
+  <a href="#contact">Human History</a>
+  <div class="dropdown">
+    <button class="dropbtn">Hiking Trails 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="balsamlake.html">Balsam Lake Provincial Park</a>
+      <a href="indianpoint.html">Indian Point Provincial Park</a>
+      <a href="kenreid.html">Ken Reid Provincial Park</a>
+      <a href="qeiiwildlands.html">Queen Elizabeth II Wildlands Provincial Park</a>
+	  </div>
+  </div> 
+  
+  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+</div>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+
+<!---Site Container
+  by: Nicholas Pretli
+  December 3, 2020 -->
+<div class="container-1"> 
+<h1>Welcome</h1>
+<p>It's great to be here</p>
+</div>
+</body>
+ </html>
+
+
+
