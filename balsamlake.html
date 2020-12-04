@@ -1,64 +1,19 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html>
-<!--testing testing testing-->
-    <lang="en"></lang>
-    <head>
-        <title>Balsam Lake Trails</title>
-    <link rel="stylesheet" type="text/css" href="stylesheet.css">
-    <style>
-        
-body {
-  background-color: #d8dfd4; 
-  font-size: 50px;
-  text-align: center;
-}
-.imagecptn {
-    font-size: 10px;
-    margin: 0px; 
-}
-.park {
-    font-size: 22px; 
-    margin: 10px; 
-    color: #324253; 
-}
-#maindescr {
-    font-size: 14px;
-    text-align: left;
-}
-.sub{
-    font-size: 16px;
-    text-align: left;
-}
+<head>
+<!--CSS Stylesheet-->
+<link rel="stylesheet" type="text/css" href="stylesheet.css">
 
-.main{
-    font-size: 16px;
-    text-align: left;
-}
-    </style>
-<!--Folder fade by Tayler Nichol November 23, 2020-->
-    <script 
-    src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script>
-    $(document).ready(function(){
-        $("#trailtitle1").click(function(){
-            $("#trailtext1").fadeToggle();
-        });
-    });
-    $(document).ready(function(){
-        $("#trailtitle2").click(function(){
-            $("#trailtext2").fadeToggle();
-        });
-    });
-        </script>
-    </head>
-    <body>
-          <!---Site Header
+<title>Balsam Lake Provincial Park</title>
+
+</head>
+<body>
+  <!---Site Header
   by: Hayley Kennington
   November 23, 2020 -->
-  <div class="header-image">
+  <div class="header-image-balsam">
     <div class="header-text">
-      <h1>Outdoor Life in The Kawartha Lakes</h1>
-      <p>Your Guide to What's Local & Outdoors</p>
+      <h1>Human History</h1>
     </div>
   </div>
   <!--Site Header End-->
@@ -74,41 +29,4 @@ body {
   <li><a href="qeiiwildlands.html">Queen Elizabeth II Wildlands Provincial Park</a></li>
   <li><a href="kenreid.html">Ken Reid Conservation Area</a></li>
 </ul>
-        <h class="park">Balsam Lake Provincial Park</h>
-            <div id="maindescr">Located on Highway 48 between the towns of Coboconk and Kirkfield, Balsam Lake is a small provincial park with a variety of hiking trails and activities for visitors, including boating and camping. The park contains a beach, several notable bird species, and a variety of natural landscapes such as open meadows, swamps, and forest. </div>
 
-        <h class ="sub">[google api map here]</h>
-        <h class="sub">Hiking</h>
-            <p class="main">The provincial park contains two short hiking trails which are suitable for hikers of all levels of experience, <b>Lookout Trail</b> and <b>Plantation Trail</b>. Both are <i>interpretive trails</i> that contain signposts with information about the natural and human history of the area.</p>
-            <p class="main">Find downloadable maps of the trails here (link later), as well as descriptions of each trail below.</p>
-        <!--fix italics, bolding later--> 
-        <button id="trailtitle1">Lookout Trail</button>
-        <br><br>
-        <div id="trailtext1"><b>Lookout Trail</b> is a 2.6-kilometer trail that takes approximately one and a half hours to walk. Along this trail, you will walk over <i>eskers</i> - ridges of gravel and sediment formed 10,000 years ago by meltwater from the Wisconsin Glacier. Natural landscapes visible along the trail include cedar swamp, deciduous forest, and open meadow. The ‘lookout’ is the highest point on the trail and has a stunning panorama view of the surrounding forest.
-        <br><br>
-            <img src="..\a3web\photos\Balsam-Lake-Lookout-Nature-Lover.jpg" alt="Photo of Balsam Lake Lookout Trail" height=300>
-            <p class="imagecptn">Credit: NatureLover.ca</p>
-        </div><br>
-
-        <button id="trailtitle2">Plantation Trail</button>
-        <br><br>
-        <div id="trailtext2"><b>Plantation Trail</b> is a 4.2-km trail – about a two-hour walk. This trail will take you through landscapes modified by humans, including some of the region’s earliest settlers. You will see old logging sites and farm fields, as well as reforested plantations and a pond teeming with wildlife. 
-            <br><br>
-            <img src="..a3web\photos\BalsamLake5PlantationTrailAllTrailscom.jpeg">
-        </div>
-        
-        <!--button fade toggle adapted from w3 schools: https://www.w3schools.com/jquery/jquery_fade.asp-->
-        
-        <h class="sub">Other Park Activities</h>
-        <p class="main">Balsam Lake is ideal for birding, biking, and swimming. At the lake itself, visitors can rent canoes, kayaks, and paddle boats, or use the boating facilities (trailer parking and launching areas) provided. The park also participates in the Ontario ‘Learn to Fish’ program, which provides a free one-hour practical teaching session and an hour of supervised hands-on practice for people of all ages interested in learning more about fishing. 
-        </p>
-        <p class="main">Camping is available in the park from mid-May to mid-October. Winter activities are also available, including snowshoeing. In some years an ice-skating trail is built in the park for the Kawartha Lakes Frostival. Park facilities include washrooms, a playground, and the park store. </p>
-        <h class=sub>Sources</h3>
-        <ul>
-            <li>ontarioparks.com/park/balsamlake/activities</li>
-            <li>todocanada.ca/city/peterborough/listing/balsam-lake-provincial-park/</li>
-            <li>www.ontariotrails.on.ca/trails/view/lookout-trail-5</li>
-            <li>www.ontariotrails.on.ca/trails/view/plantation-trail</li>
-        </ul>  
-    </body>
-</html>
