@@ -1,12 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
-  
 <head>
-<!--CSS Stylesheet-->
+<!-- Single external CSS document --> 
 <link rel="stylesheet" type="text/css" href="stylesheet.css">
-
+<!-- This is the title of the webpage -->
 <title>Kawartha Outdoors</title>
-
 </head>
 <body>
   <!---Site Header
@@ -20,27 +18,34 @@
   </div>
   <!--Site Header End November 24, 2020 9:15 a.m.-->
 
-<ul>
-  <li><a class="active" href="index.html">Home</a></li>
-  <li><a href="about.html">About</a></li>
-  <li><a href="regionalinfo.html">Regional Info</a></li>
-  <li><a href="humanhistory.html">Human History</a></li>
-  <li><a href="naturalhistory.html">Natural History</a></li>
-  <li><a href="balsamlake.html">Balsam Lake Provincial Park</a></li>
-  <li><a href="indianpoint.html">Indian Point Provincial Park</a></li>
-  <li><a href="qeiiwildlands.html">Queen Elizabeth II Wildlands Provincial Park</a></li>
-  <li><a href="kenreid.html">Ken Reid Conservation Area</a></li>
-</ul>
+ <!---Site Header
+  by: Nicholas Pretli
+  December 4th, 2020 -->
+<div class="navbar">
+  <a href="#home">Home</a>
+  <a href="#regional">About</a>
+  <div class="dropdown">
+    <button class="dropbtn">Hiking Trails
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="#">Balsam Lake Provincial Park</a>
+      <a href="#">Ken Reid Conservation Area</a>
+      <a href="#">Indian Point Provincial Park</a>
+      <a href="#">Queen Elizabeth II Wildlands Provincial Park</a>
+    </div>
+  </div> 
+</div>
 
 <img src="./photos/kawartha-autumn.jpg" alt="Cinque Terre" class="responsive" width="4000" height="2666">
 
 <!---Site Container
   by: Nicholas Pretli
   December 3, 2020 -->
-
 <div> 
 <h1>Welcome</h1>
 <p>It's great to be here</p>
 </div>
 </body>
  </html>
+
