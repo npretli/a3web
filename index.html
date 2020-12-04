@@ -10,7 +10,8 @@
   <!---Site Header
   by: Hayley Kennington
   November 23, 2020 -->
-  <div class="header-image">
+<body>
+<div class="header-image">
     <div class="header-text">
       <h1>Outdoor Life in The Kawartha Lakes</h1>
       <p>Your Guide to What's Local & Outdoors</p>
@@ -21,28 +22,42 @@
  <!---Site Header
   by: Nicholas Pretli
   December 4th, 2020 -->
-<div class="navbar">
-  <a href="#home">Home</a>
-  <a href="#regional">About</a>
+
+<div class="topnav" id="myTopnav">
+  <a href="#home" class="active">Home</a>
+  <a href="#regionalinfo">Regional Info</a>
+  <a href="#about">Natural History</a>
+  <a href="#contact">Human History</a>
   <div class="dropdown">
-    <button class="dropbtn">Hiking Trails
+    <button class="dropbtn">Hiking Trails 
       <i class="fa fa-caret-down"></i>
     </button>
     <div class="dropdown-content">
-      <a href="#">Balsam Lake Provincial Park</a>
-      <a href="#">Ken Reid Conservation Area</a>
-      <a href="#">Indian Point Provincial Park</a>
-      <a href="#">Queen Elizabeth II Wildlands Provincial Park</a>
-    </div>
+      <a href="balsamlake.html">Balsam Lake Provincial Park</a>
+      <a href="indianpoint.html">Indian Point Provincial Park</a>
+      <a href="kenreid.html">Ken Reid Provincial Park</a>
+      <a href="qeiiwildlands.html">Queen Elizabeth II Wildlands Provincial Park</a>
+	  </div>
   </div> 
+  
+  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
 </div>
 
-<img src="./photos/kawartha-autumn.jpg" alt="Cinque Terre" class="responsive" width="4000" height="2666">
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
 
 <!---Site Container
   by: Nicholas Pretli
   December 3, 2020 -->
-<div> 
+<div class="container-1"> 
 <h1>Welcome</h1>
 <p>It's great to be here</p>
 </div>
