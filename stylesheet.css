@@ -30,68 +30,6 @@ code modified from https://www.w3schools.com/howto/howto_css_hero_image.asp*/
   position: relative;
 }
 
-.header-image-indian-point {
-  background-image: url("photos/region.jpg");
-  height: 40%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-}
-
-.header-image-regional-info {
-  background-image: url("photos/indian-point-1.jpg");
-  height: 40%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-}
-
-.header-image-qeii {
-  background-image: url("photos/queenelizabeth2wildlands.jpg");
-  height: 40%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-}
-
-.header-image-naturalhist {
-  background-image: url("photos/lovesick-lake-1.jpg");
-  height: 40%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-}
-
-.header-image-humanhist {
-  background-image: url("photos/kawartha-winter.jpg");
-  height: 40%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-}
-
-.header-image-ken {
-  background-image: url("photos/ken-reid.jpg");
-  height: 40%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-  
-.header-image-balsam {
-  background-image: url("photos/Balsam-Lake-1-Kawartha-Realty.jpg");
-  height: 40%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-  }
-
 .header-text {
   font-family:'century gothic';
   text-align: center;
@@ -219,3 +157,62 @@ body {margin:0;font-family:Arial}
   margin: auto;
 }
 
+.header-image-indian-point {
+  background-image: url("photos/region.jpg");
+  height: 40%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.header-image-regional {
+  background-image: url("photos/indian-point-1.jpg");
+  height: 40%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.header-image-qeii {
+  background-image: url("photos/queenelizabeth2wildlands.jpg");
+  height: 40%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.header-image-naturalhist {
+  background-image: url("photos/lovesick-lake-1.jpg");
+  height: 40%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.header-image-humanhist {
+  background-image: url("photos/kawartha-winter.jpg");
+  height: 40%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.header-image-ken {
+  background-image: url("photos/ken-reid.jpg");
+  height: 40%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+  
+.header-image-balsam {
+  background-image: url("photos/Balsam-Lake-1-Kawartha-Realty.jpg");
+  height: 40%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
