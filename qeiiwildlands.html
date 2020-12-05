@@ -1,10 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
-<title>QEII Wildlands</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<style>
+<head>
+<!-- Single external CSS document --> 
+<link rel="stylesheet" type="text/css" href="stylesheet.css">
+<!-- This is the title of the webpage -->
+<title>Kawartha Outdoors</title>
+</head>
+<body>
+  <!---Site Header
+  by: Hayley Kennington
+  November 23, 2020 -->
+<body>
+<div class="header-image-qeii">
+    <div class="header-text">
+      <h1><i>Queen Elizabeth II Wildlands Provincial Park</i></h1>
+    </div>
+  </div>
+  <!--Site Header End November 24, 2020 9:15 a.m.-->
+
+ <!---Site Header
+  by: Nicholas Pretli
+  December 4th, 2020 -->
+
+<div class="topnav" id="myTopnav">
+  <a href="#home" class="active">Home</a>
+  <a href="#regionalinfo">Regional Info</a>
+  <a href="#about">Natural History</a>
+  <a href="#contact">Human History</a>
+  <div class="dropdown">
+    <button class="dropbtn">Hiking Trails 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="balsamlake.html">Balsam Lake Provincial Park</a>
+      <a href="indianpoint.html">Indian Point Provincial Park</a>
+      <a href="kenreid.html">Ken Reid Provincial Park</a>
+      <a href="qeiiwildlands.html">Queen Elizabeth II Wildlands Provincial Park</a>
+	  </div>
+  </div> 
+  
+  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+</div>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+
+</body>
+ </html>
+
+
+
+
+
+
+
+
+
+
+
+<!-- style>
     .dropdown {
       float: left;
       overflow: hidden;
@@ -54,11 +116,12 @@
 
 <!-- Eric Millan, Time is 9:37AM, November 18, 2020
 //Edited NavBar w/ dropdown items: Format inspired and modified from W3Schools-->
-<!-- Navbar (sit on top) -->
+<!-- Navbar (sit on top) 
 <div class="w3-top">
   <div class="w3-bar w3-white w3-wide w3-padding w3-card">
     <a href="#home" class="w3-bar-item w3-button"><b>Kawartha</b> Trails</a>
     <!-- Float links to the right. Hide them on small screens -->
+	<!-- 
     <div class="w3-right w3-hide-small">
       <div class="dropdown">
           <button class="dropbtn">Projects
@@ -77,12 +140,12 @@
   </div>
 </div>
 
-<!-- Header -->
+<!-- Header 
 <header class="w3-display-container w3-content w3-wide" style="max-width:3000px;" id="home">
   <img class="w3-image" src="./photos/kawartha-autumn.jpg" alt="Bridge" width="4000" height="2666">
   <div class="w3-display-middle w3-margin-top w3-center">
     <h1 class="w3-xxlarge w3-text-white"><span class="w3-padding w3-black w3-opacity-min"><b>Kawartha</b></span> <span class="w3-hide-small w3-text-light-grey">Trails</span></h1>
-  </div>
-</header>
+  </div> 
+</header> > 
 
 </body>
