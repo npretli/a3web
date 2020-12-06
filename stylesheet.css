@@ -16,6 +16,47 @@ body, html {
   height: auto;
 }
 
+/*Trail page css - Re-added by Tayler Nichol, December 6*/
+#maindescr {
+  font-size: 14px;
+  text-align: left;
+}
+.sub{
+  font-size: 16px;
+  text-align: left;
+}
+
+.main{
+  font-size: 16px;
+  text-align: left;
+}
+#trailtitle1{
+  background-color: #016901; 
+  border: none;
+  color: white;
+  text-align: left;
+  text-decoration: none;
+  font-size: 16px;
+  width: 75%;
+  padding: 2px;
+}
+#trailtitle2{
+  background-color: #016901; 
+  border: none;
+  color: white;
+  text-align: left;
+  text-decoration: none;
+  font-size: 16px;
+  width: 100%;
+  padding: 2px;
+}
+#trailtext1{
+  display:none
+}
+#trailtext2{
+  display:none 
+}
+
 /*Site Header
 by: Hayley Kennington
 November 23, 2020 9am
@@ -206,19 +247,5 @@ body {margin:0;font-family:Arial}
     text-align: left;
   }
 
-/*Trail page css - Re-added by Tayler Nichol, December 6*/
-#maindescr {
-  font-size: 14px;
-  text-align: left;
-}
-.sub{
-  font-size: 16px;
-  text-align: left;
-}
-
-.main{
-  font-size: 16px;
-  text-align: left;
-}
 
 }
