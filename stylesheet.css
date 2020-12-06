@@ -206,4 +206,19 @@ body {margin:0;font-family:Arial}
     text-align: left;
   }
 
+/*Trail page css - Re-added by Tayler Nichol, December 6*/
+#maindescr {
+  font-size: 14px;
+  text-align: left;
+}
+.sub{
+  font-size: 16px;
+  text-align: left;
+}
 
+.main{
+  font-size: 16px;
+  text-align: left;
+}
+
+}
