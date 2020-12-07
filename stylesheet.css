@@ -48,14 +48,14 @@ body, html {
   padding: 2px;
 }
 #trailtitle2{
-  background-color: #016901; 
+  background-color: #014869; 
   border: none;
   color: white;
   text-align: left;
   text-decoration: none;
   font-size: 16px;
   width: 100%;
-  padding: 2px;
+  padding: 4px;
 }
 #trailtext1{
   display:none
