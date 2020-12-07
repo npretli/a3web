@@ -326,7 +326,7 @@ body {margin:0;font-family:Arial}
   border:2px solid white;
 }
 
-.continer ul li:hover{
+.container ul li:hover{
   opacity: 0.9;
 
 .continer ul li .title:hover{
