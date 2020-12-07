@@ -12,7 +12,7 @@
   by: Hayley Kennington
   November 23, 2020 -->
 <body>
-<div class="header-image-qeii">
+<div class="header-image-balsam">
     <div class="header-text">
       <h1><i>Queen Elizabeth II Wildlands Provincial Park</i></h1>
     </div>
@@ -43,6 +43,8 @@
   <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
 </div>
 
+<script 
+src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script>
 function myFunction() {
   var x = document.getElementById("myTopnav");
@@ -52,91 +54,36 @@ function myFunction() {
     x.className = "topnav";
   }
 }
+$(document).ready(function(){
+        $("#trailtitle1").click(function(){
+            $("#trailtext1").fadeToggle();
+        });
+    });
+    $(document).ready(function(){
+        $("#trailtitle2").click(function(){
+            $("#trailtext2").fadeToggle();
+        });
+    });
 </script>
+<!--Edited by Eric Millan, December 6, 2020-->
+<br><br>
+  <div id="maindescr">OPENING TEXT FOR QEII PAGE</div>
 
+  <h class="sub">Hiking</h>
+  <p class="main">The QEII Wildlands Provincial Park is a unmaintained park, which means it is free to explore! The<b>Ganaraska Trail</b>, however, does pass through the park and there are several access points.</p>
+  <p class="main">To download a detailed map of the area, please click the link below</p>
+        <!--fix italics, bolding later--> 
+
+<!--Button fade/toggle
+by: Tayler Nichol
+November 20, 2020
+Adapted from w3 schools: https://www.w3schools.com/jquery/jquery_fade.asp-->
+  <button id="trailtitle1">Lookout Trail</button>
+  <br><br>
+  <div id="trailtext1"><b>Lookout Trail</b> is a 2.6-kilometer trail that takes approximately one and a half hours to walk. Along this trail, you will walk over <i>eskers</i> - ridges of gravel and sediment formed 10,000 years ago by meltwater from the Wisconsin Glacier. Natural landscapes visible along the trail include cedar swamp, deciduous forest, and open meadow. The ‘lookout’ is the highest point on the trail and has a stunning panorama view of the surrounding forest.
+  <br><br>
+  <img src="..\a3web\photos\Balsam-Lake-Lookout-Nature-Lover.jpg" alt="Photo of Balsam Lake Lookout Trail" height=300>
+  <p class="imagecptn">Credit: NatureLover.ca</p>
+  </div>
 </body>
  </html>
-
-<!-- style>
-    .dropdown {
-      float: left;
-      overflow: hidden;
-    }
-    
-    .dropdown .dropbtn {
-      font-size: 15px;  
-      border: none;
-      outline: none;
-      color: black;
-      padding: 8px 16px;
-      background-color: inherit;
-      margin: 0;
-    }
-    
-    .navbar a:hover, .dropdown:hover .dropbtn {
-      background-color: rgb(47, 121, 155);
-    }
-    
-    .dropdownContent {
-      display: none;
-      position: absolute;
-      background-color: #f9f9f9;
-      min-width: 160px;
-      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-      z-index: 1;
-    }
-    
-    .dropdownContent a {
-      float: none;
-      color: black;
-      padding: 8px 16px;
-      text-decoration: none;
-      display: block;
-      text-align: left;
-    }
-    
-    .dropdownContent a:hover {
-      background-color: #ddd;
-    }
-    
-    .dropdown:hover .dropdownContent {
-      display: block;
-    }
-    </style>
-<body>
-
-<!-- Eric Millan, Time is 9:37AM, November 18, 2020
-//Edited NavBar w/ dropdown items: Format inspired and modified from W3Schools-->
-<!-- Navbar (sit on top) 
-<div class="w3-top">
-  <div class="w3-bar w3-white w3-wide w3-padding w3-card">
-    <a href="#home" class="w3-bar-item w3-button"><b>Kawartha</b> Trails</a>
-    <!-- Float links to the right. Hide them on small screens -->
-	<!-- 
-    <div class="w3-right w3-hide-small">
-      <div class="dropdown">
-          <button class="dropbtn">Projects
-              <i class="fa fa-chevron-down"></i>
-          </button>
-          <div class= "dropdownContent">
-              <a href="qeiiwildlands.html">QEII Wildlands</a>
-              <a href="indianpoint.html">Indian Point</a>
-              <a href="kenreid.html">Ken Reid</a>
-              <a href="balsamlake.html">Balsam Lake</a>
-          </div>
-      </div>
-      <a href="#about" class="w3-bar-item w3-button">About</a>
-      <a href="#contact" class="w3-bar-item w3-button">Contact</a>
-    </div>
-  </div>
-</div>
-
-<!-- Header 
-<header class="w3-display-container w3-content w3-wide" style="max-width:3000px;" id="home">
-  <img class="w3-image" src="./photos/kawartha-autumn.jpg" alt="Bridge" width="4000" height="2666">
-  <div class="w3-display-middle w3-margin-top w3-center">
-    <h1 class="w3-xxlarge w3-text-white"><span class="w3-padding w3-black w3-opacity-min"><b>Kawartha</b></span> <span class="w3-hide-small w3-text-light-grey">Trails</span></h1>
-  </div> 
-</header> > 
-
-</body>
