@@ -66,6 +66,11 @@ body, html {
   display:none 
 }
 
+#topText {
+  font-weight: bold;
+  font-size: 10%;
+}
+
 /*Download Buttons
 by: Eric Millan
 December 3, 2020
