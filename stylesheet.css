@@ -331,15 +331,17 @@ body {margin:0;font-family:Arial}
 }
 
 .container ul li .title:hover{
-  background: blue;
+  background: #008000;
   color:white;
 } 
 
 .container ul li .title{
+  font-family: 'century gothic';
+  font-weight: bold;
   width: 100%;
   height: 50px; 
   line-height: 50px;
-  background: green;
+  background:  #3292cf;
   text-align: center; 
 }
 
