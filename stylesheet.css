@@ -354,9 +354,15 @@ body {margin:0;font-family:Arial}
 /* Footer by Nicholas Pretli on December 7, 2020, 6:30 p.m */
 /* Footer HTML & CSS from https://stackoverflow.com/questions/643879/css-to-make-html-page-footer-stay-at-bottom-of-the-page-with-a-minimum-height-b */
 #footer {
-  position:absolute;
-  bottom:0;
-  width:100%;
-  height:60px;   /* Height of the footer */
-  background:#6cf;
+  font-family: 'century gothic'
+  text-align: center;
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #3292cf;
+  color: white;
+  text-align: center;
+  padding: 0.5px;
 }
+  
