@@ -11,10 +11,16 @@ body, html {
   background-color: #a1c482;
 }
 
+/* Responsive design techniques amended by Nicholas Pretli on December 4, 2020 */
 .responsive {
   width: 100%;
   height: auto;
 }
+
+.p {
+ font-size: 15px;
+ font-size:10vw;
+   }
 
 /*Trail page css - Re-added by Tayler Nichol, December 6*/
 #maindescr {
