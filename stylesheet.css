@@ -59,6 +59,7 @@ body, html {
   padding: 2px;
 }
 #trailtext1{
+  padding: 10%;
   display:none
 }
 #trailtext2{
