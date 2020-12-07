@@ -43,9 +43,10 @@ body, html {
   color: whitesmoke;
   text-align: left;
   text-decoration: none;
+  font-weight: bold;
   font-size: 16px;
   width: 100%;
-  padding: 2px;
+  padding: 5px;
 }
 #trailtitle2{
   background-color: #014869; 
