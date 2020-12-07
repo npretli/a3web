@@ -329,8 +329,9 @@ body {margin:0;font-family:Arial}
 .continer ul li:hover{
   opacity: 0.9;
 
-.continer ul li .titlehover{
-  opacity: 0.9;
+.continer ul li .title:hover{
+  background: blue;
+  color:white;
   
 .container ul li .title{
   width: 100%;
