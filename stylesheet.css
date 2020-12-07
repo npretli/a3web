@@ -38,13 +38,13 @@ body, html {
   text-align: left;
 }
 #trailtitle1{
-  background-color: #016901; 
+  background-color: #3292cf; 
   border: none;
-  color: black;
+  color: whitesmoke;
   text-align: left;
   text-decoration: none;
   font-size: 16px;
-  width: 75%;
+  width: 100%;
   padding: 2px;
 }
 #trailtitle2{
