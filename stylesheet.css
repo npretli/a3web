@@ -27,10 +27,12 @@ body, html {
 #maindescr {
   font-size: 14px;
   text-align: left;
+  font-weight: bold;
 }
 .sub{
   font-size: 16px;
-  text-align: left;
+  text-align: center;
+
 }
 
 .main{
@@ -64,12 +66,6 @@ body, html {
 }
 #trailtext2{
   display:none 
-}
-
-#topText {
-  font-weight: bold;
-  font-size: 10%;
-  text-align: center;
 }
 
 /*Download Buttons
