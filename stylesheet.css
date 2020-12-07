@@ -64,6 +64,29 @@ body, html {
   display:none 
 }
 
+/*Download Buttons
+by: Eric Millan
+December 3, 2020
+Idea taken from walkHighlands https://www.walkhighlands.co.uk/sutherland/ceannabeinne.shtml, 
+code modified to include buttons
+*/
+
+#downloadButtons {
+  float: left;
+}
+
+#mapDownload {
+  background-color: rgb(159, 216, 213);
+  border: none;
+  color: black;
+  padding: 10px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition: 0.3s;
+}
+
+
 /*Site Header
 by: Hayley Kennington
 November 23, 2020 9am
