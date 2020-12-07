@@ -328,11 +328,13 @@ body {margin:0;font-family:Arial}
 
 .container ul li:hover{
   opacity: 0.9;
+}
 
-.continer ul li .title:hover{
+.container ul li .title:hover{
   background: blue;
   color:white;
   
+
 .container ul li .title{
   width: 100%;
   height: 50px; 
