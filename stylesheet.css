@@ -294,7 +294,6 @@ code modified to include buttons
   transition: 0.3s;
 }
 
-
 /* Static map of Kawartha Lakes, Ontario 
 by: Nicholas Pretli
  December 7, 2020
@@ -307,7 +306,7 @@ by: Nicholas Pretli
   }
 
 
-/*********************************************/
+
 
 @media screen and (max-width: 2000px) {
   .topnav a:not(:first-child), .dropdown .dropbtn {
@@ -319,29 +318,6 @@ by: Nicholas Pretli
   }
 }
 
-<<<<<<< HEAD
-@media screen and (max-width: 2000px) {
-  .topnav.responsive {position: absolute;}
-  .topnav.responsive .icon {
-    position: absolute;
-    right: 0;
-    top: 0;
-  }
-  .topnav.responsive a {
-    float: none;
-    display: block;
-    text-align: left;
-  }
-  .topnav.responsive .dropdown {float: none;}
-  .topnav.responsive .dropdown-content {position: relative;}
-  .topnav.responsive .dropdown .dropbtn {
-    display: block;
-    width: 100%;
-    text-align: left;
-  }
-
-=======
->>>>>>> dd8ebfaaf6840c726af67d57e624ceb6148d2db5
 /* Main Page Container by Nicholas Pretli on December 7, 2020 */
 /* CSS concepts referenced from https://www.youtube.com/watch?v=T_DIpApkjwM */
 
@@ -389,7 +365,7 @@ by: Nicholas Pretli
   text-align: center;  
 }
 
-<<<<<<< HEAD
+
 @media screen and (max-width:4000px) {
   .container ul li{
     width:40%;
@@ -397,7 +373,7 @@ by: Nicholas Pretli
 }
 }
 
-=======
+
 /* Footer by Nicholas Pretli on December 7, 2020, 6:30 p.m */
 /* CSS concepts referenced from https://w3schools.com */
 
@@ -464,7 +440,6 @@ code modified to include buttons
   margin: 5px 50px;
 }
 
-<<<<<<< HEAD
 .downloadDiv {
   height: 30px;
   width: 100%;
@@ -526,6 +501,5 @@ code modified to include buttons
     width: 100%;
     text-align: left;
   }
->>>>>>> bbb9b10bdb5eeb9fd4ed25973ec7d5a0816291b6
 }
->>>>>>> dd8ebfaaf6840c726af67d57e624ceb6148d2db5
+
