@@ -88,14 +88,8 @@ Idea taken from walkHighlands https://www.walkhighlands.co.uk/sutherland/ceannab
 code modified to include buttons
 */
 
-/*DIV BLOCKFOR DOWNLOAD BUTTONS, CENTERED*/
 #downloadDiv {
-  height: 50px;
-  position: relative;
-  top: auto;
-  bottom: auto;
   padding: 5%;
-  background-color: #014869;
   font-size: 16px;
   margin: auto;
   display: inline-block; 
@@ -300,10 +294,7 @@ body {margin:0;font-family:Arial}
   }
 
 /* Main Page Container by Nicholas Pretli on December 7, 2020 */
-<<<<<<< HEAD
 /* CSS concepts referenced from https://www.youtube.com/watch?v=T_DIpApkjwM */
-=======
->>>>>>> ee7db1d41690ecf90a12359a629a08588d1d93d0
 .container{
   width: 90%;
   overflow: hidden;
@@ -356,16 +347,16 @@ body {margin:0;font-family:Arial}
 /* CSS concepts referenced from https://w3schools.com */
 
 .footer {
-  font-family: 'century gothic';
+  font-family: 'century gothic'
   text-align: center;
   position: relative;
   left: 0;
   bottom: 0px;
   width: 100%;
-  background-color: #3292cf
+  background-color: #3292cf;
   color: white;
   text-align: center;
   padding: 0px;
- }
 }
+
   
