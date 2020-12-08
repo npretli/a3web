@@ -47,7 +47,7 @@ h3{padding: 1%;
 #trailtitle1{
   background-color:#014869; 
   border: none;
-  color: whitesmoke;
+  color: rgb(255, 255, 255);
   text-align: left;
   text-decoration: none;
   font-weight: bold;
@@ -223,7 +223,6 @@ code modified from https://www.w3schools.com/howto/howto_css_hero_image.asp*/
 }
 
 
-
 /* Main Page CSS, lower image & footer implementation 
 By: Nicholas Pretli on December 7, 2020 
 CSS concepts referenced from https://w3schools.com */
@@ -276,10 +275,15 @@ by: Nicholas Pretli
   }
 }
 
-<<<<<<< HEAD
-=======
-/* Main Page Container by Nicholas Pretli on December 7, 2020 */
-/* CSS concepts referenced from https://www.youtube.com/watch?v=T_DIpApkjwM */
+.container{
+  width: 90%;
+  overflow: hidden;
+  background: skyblue;
+  margin: 20px auto;
+  padding: 20px; 
+}
+
+/* Main Page CSS modified by Nicholas Pretli on December 7, 2020 */
 .mainpagetext{
   text-align: center;
   padding: 15px;
@@ -365,7 +369,6 @@ by: Nicholas Pretli
 
 }
 
->>>>>>> 364ba815a088f4d0d13ef41d710f5d0b50338e0f
 /*Download Buttons
 by: Eric Millan
 December 3, 2020
