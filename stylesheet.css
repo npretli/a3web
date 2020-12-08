@@ -108,15 +108,10 @@ code modified to include buttons
   margin: auto;
   display: block;
   padding: 10px 10px 10px;
-  margin-left: auto;
-  margin-right: auto;
-  position: absolute;
 }
 
 .mapDownload {
   background-color: rgb(159, 216, 213);
-  top: 50%;
-  left: 50%;
   border: none;
   color: black;
   padding: 10% 10%;
@@ -357,7 +352,6 @@ body {margin:0;font-family:Arial}
     width:40%;
     margin-left: 50px;
 }
-}
 
 /* Footer by Nicholas Pretli on December 7, 2020, 6:30 p.m */
 /* CSS concepts referenced from https://w3schools.com */
@@ -414,3 +408,4 @@ code modified to include buttons
   transition: 0.3s;
 }
 }
+} 
