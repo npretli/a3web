@@ -358,7 +358,7 @@ code modified to include buttons
 /* CSS concepts referenced from https://w3schools.com */
 
 .footer {
-  font-family: 'century gothic'
+  font-family: 'century gothic';
   text-align: center;
   position: relative;
   left: 0;
@@ -368,5 +368,4 @@ code modified to include buttons
   color: white;
   text-align: center;
   padding: 0px;
-}
 }
