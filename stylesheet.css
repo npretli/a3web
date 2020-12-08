@@ -88,8 +88,14 @@ Idea taken from walkHighlands https://www.walkhighlands.co.uk/sutherland/ceannab
 code modified to include buttons
 */
 
+/*DIV BLOCKFOR DOWNLOAD BUTTONS, CENTERED*/
 #downloadDiv {
+  height: 50px;
+  position: relative;
+  top: auto;
+  bottom: auto;
   padding: 5%;
+  background-color: #014869;
   font-size: 16px;
   margin: auto;
   display: inline-block; 
