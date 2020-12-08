@@ -393,7 +393,7 @@ code modified to include buttons
   font-size: 200%;
   background-color: #014869;
   padding: 5px;
-=======
+
 @media screen and (max-width: 600px) {
   .container ul li{
     width:40%;
