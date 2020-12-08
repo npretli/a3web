@@ -128,15 +128,6 @@ code modified from https://www.w3schools.com/howto/howto_css_hero_image.asp*/
   position: relative;
 }
 
-.header-image-indian-point {
-  background-image: url("photos/indian-point.jpg");
-  height: 40%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-}
-
 .header-image-ken {
   background-image: url("photos/ken-reid.jpg");
   height: 40%;
