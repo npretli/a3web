@@ -41,6 +41,8 @@
   <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
 </div>
 
+<script 
+src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script>
 function myFunction() {
   var x = document.getElementById("myTopnav");
@@ -50,12 +52,50 @@ function myFunction() {
     x.className = "topnav";
   }
 }
+/*jquery allows folders to be opened when clicked on*/
+$(document).ready(function(){
+        $("#trailtitle1").click(function(){
+            $("#trailtext1").fadeToggle();
+        });
+    });
+    $(document).ready(function(){
+        $("#trailtitle2").click(function(){
+            $("#trailtext2").fadeToggle();
+        });
+    });
 </script>
 
+<<<<<<< HEAD
 <p></p>
 
 
+=======
+<!--Edited by Eric Millan, December 6, 2020-->
+
+<div id="maindescr">Ken Reid Conservation Area, managed by the Kawartha Conservation area, has 12 day hiking trails as well as shelters and picnic areas for you to enjoy. While relatively small, Ken Reid’s 12 trails total to nearly 11 kilometers. A favorite for bird watchers, the Point Loop (2.7 km) takes you straight out in a peninsula surrounded by Sturgeon Lake. Don’t forget your binoculars!</div>
+  
+
+<!--Button fade/toggle
+by: Tayler Nichol
+November 20, 2020
+Adapted from w3 schools: https://www.w3schools.com/jquery/jquery_fade.asp-->
+  <button id="trailtitle1">Point Loop</button>
+  <br><br>
+  <div id="trailtext1"><b>The Point Loop</b>Takes you near wetlands and mixed forest to a fantastic view over the sturgeon river. An easy hike for all, this short trail will bring you close to some of Ontario's migrating bird species, which often stop here before heading south for the winter.
+  <img src="photos\woodDuck.jpeg" alt="Photo of Bird" height=300>
+  <p class="imagecptn">Credit: Wikipedia, Wood Duck</p>
+  </div>
+
+  <button id="trailtitle2">Plantation Trail</button>
+  <br><br>
+  <div id="trailtext2"><b>Plantation Trail</b> is a 4.2-km trail – about a two-hour walk. This trail will take you through landscapes modified by humans, including some of the region’s earliest settlers. You will see old logging sites and farm fields, as well as reforested plantations and a pond teeming with wildlife. 
+  <br><br>
+  <img src="../a3web/photos/BalsamLake5PlantationTrailAllTrailscom.jpeg" alt="Photo of Balsam Lake Plantation Trail Signpost" height=300>
+
+  <p class="imagecptn">Credit: AllTrails.com</p>
+  </div>
+>>>>>>> 6712f234f5659d0dd32c98917d6c327591d2c9c7
 
 
 </body>
- </html>
+</html>
