@@ -92,11 +92,13 @@ code modified to include buttons
   padding: 5%;
   font-size: 16px;
   margin: auto;
-  display: none; 
+  display: inline-block; 
 }
 
 .downloadButtons {
   float: left;
+  margin: auto;
+  display: block;
 }
 
 .mapDownload {
