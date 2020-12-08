@@ -89,7 +89,7 @@ code modified to include buttons
 */
 
 /*DIV BLOCKFOR DOWNLOAD BUTTONS, CENTERED*/
-#downloadDiv {
+.downloadDiv {
   height: 50px;
   position: relative;
   top: auto;
