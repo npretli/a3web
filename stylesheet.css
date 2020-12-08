@@ -103,6 +103,7 @@ code modified to include buttons
 
 .downloadButtons {
   float: left;
+  align-items: center;
   margin: auto;
   display: block;
 }
