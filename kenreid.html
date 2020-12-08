@@ -42,6 +42,8 @@
   <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
 </div>
 
+<script 
+src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script>
 function myFunction() {
   var x = document.getElementById("myTopnav");
@@ -51,6 +53,17 @@ function myFunction() {
     x.className = "topnav";
   }
 }
+/*jquery allows folders to be opened when clicked on*/
+$(document).ready(function(){
+        $("#trailtitle1").click(function(){
+            $("#trailtext1").fadeToggle();
+        });
+    });
+    $(document).ready(function(){
+        $("#trailtitle2").click(function(){
+            $("#trailtext2").fadeToggle();
+        });
+    });
 </script>
 
 <!--Edited by Eric Millan, December 6, 2020-->
