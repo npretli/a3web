@@ -55,27 +55,10 @@ by: Tayler Nichol
 November 20, 2020
 Adapted from w3 schools: https://www.w3schools.com/jquery/jquery_fade.asp
 Javascript source for page functionality -->
+
 <script 
 src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<script>
-function myFunction() {
-  var x = document.getElementById("myTopnav");
-  if (x.className === "topnav") {
-    x.className += " responsive";
-  } 
-}
-/*jquery allows folders to be opened when clicked on*/
-$(document).ready(function(){
-        $("#trailtitle1").click(function(){
-            $("#trailtext1").fadeToggle();
-        });
-    });
-    $(document).ready(function(){
-        $("#trailtitle2").click(function(){
-            $("#trailtext2").fadeToggle();
-        });
-    });
-</script>
+<script src="javascript.js"></script>
 
 <!-- Page intro -->
 <div class = "mainpagetext">
