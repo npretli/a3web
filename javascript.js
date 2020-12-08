@@ -16,4 +16,3 @@ $(document).ready(function(){
             $("#trailtext2").fadeToggle();
         });
     });
-</script>
