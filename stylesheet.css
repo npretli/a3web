@@ -356,7 +356,7 @@ code modified to include buttons
   position: relative;
   top: auto;
   bottom: auto;
-  padding: 10px;
+  padding: 30px;
   background-color: #014869;
   font-size: 16px;
   margin: auto;
@@ -365,10 +365,11 @@ code modified to include buttons
 }
 
 .downloadButtons {
-  float: center;
+  float: left;
   align-items: center;
   margin: auto;
   display: block;
+  padding: 10px 10px 10px;
 }
 
 .mapDownload {
@@ -382,4 +383,4 @@ code modified to include buttons
   transition: 0.3s;
 }
 }
-}
+}''
