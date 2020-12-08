@@ -99,11 +99,11 @@ code modified to include buttons
   font-size: 16px;
   margin: auto;
   display: inline-block; 
-  width: 100%;
+  width: auto;
 }
 
 .downloadButtons {
-  float: center;
+  float: left;
   align-items: center;
   margin: auto;
   display: block;]
