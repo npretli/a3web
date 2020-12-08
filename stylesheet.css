@@ -88,7 +88,16 @@ Idea taken from walkHighlands https://www.walkhighlands.co.uk/sutherland/ceannab
 code modified to include buttons
 */
 
+<<<<<<< HEAD
 #downloadDiv {
+=======
+/*DIV BLOCKFOR DOWNLOAD BUTTONS, CENTERED*/
+.downloadDiv {
+  height: 50px;
+  position: relative;
+  top: auto;
+  bottom: auto;
+>>>>>>> 00a416ba9bd63154112a69d4a3f26a816d072ba2
   padding: 5%;
   font-size: 16px;
   margin: auto;
@@ -97,8 +106,9 @@ code modified to include buttons
 
 .downloadButtons {
   float: left;
+  align-items: center;
   margin: auto;
-  display: block;
+  display: block;]
 }
 
 .mapDownload {
