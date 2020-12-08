@@ -87,7 +87,7 @@ by: Hayley Kennington
 November 23, 2020 9am
 Idea taken from https://www.thehikinglife.com/, 
 code modified from https://www.w3schools.com/howto/howto_css_hero_image.asp*/
-/* Amended by Nicholas Pretli December 4, 2020 */
+/* Modified by Nicholas Pretli December 4, 2020; modified December 7, 2020 */
 
 .header-image {
   background-image: url("photos/smokelakecrop.jpg");
@@ -273,14 +273,6 @@ by: Nicholas Pretli
     float: right;
     display: block;
   }
-}
-
-.container{
-  width: 90%;
-  overflow: hidden;
-  background: skyblue;
-  margin: 20px auto;
-  padding: 20px; 
 }
 
 /* Main Page CSS modified by Nicholas Pretli on December 7, 2020 */
