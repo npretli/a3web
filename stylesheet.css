@@ -25,20 +25,14 @@ body, html {
 
 /*Trail page CSS - Added by Tayler Nichol, December 6*/
 h2{padding: 1%;
-  margin-block-start: 0em;
-  margin-block-end: 0em;
 }
 
 h3{padding: 1%;
-  margin-block-start: 0em;
-  margin-block-end: 0em;
 }
 #maindescr {
   font-size: 16px;
-  text-align: left;
-  padding: 1%;
-  margin-block-start: 0em;
-  margin-block-end: 0em;
+  text-align: center;
+  padding: 2%;
 }
 .sub{
   font-size: 16px;
@@ -51,8 +45,6 @@ h3{padding: 1%;
   font-size: 16px;
   text-align: left;
   padding: 1%;
-  margin-block-start: 0em;
-  margin-block-end: 0em;
 }
 #trailtitle1{
   background-color:#014869; 
@@ -96,11 +88,20 @@ Idea taken from walkHighlands https://www.walkhighlands.co.uk/sutherland/ceannab
 code modified to include buttons
 */
 
-#downloadButtons {
-  float: left;
+#downloadDiv {
+  padding: 5%;
+  font-size: 16px;
+  margin: auto;
+  display: inline-block; 
 }
 
-#mapDownload {
+.downloadButtons {
+  float: left;
+  margin: auto;
+  display: block;
+}
+
+.mapDownload {
   background-color: rgb(159, 216, 213);
   border: none;
   color: black;
@@ -111,7 +112,6 @@ code modified to include buttons
   transition: 0.3s;
 }
 
-
 /*Site Header
 by: Hayley Kennington
 November 23, 2020 9am
@@ -121,15 +121,6 @@ code modified from https://www.w3schools.com/howto/howto_css_hero_image.asp*/
 
 .header-image {
   background-image: url("photos/smokelakecrop.jpg");
-  height: 40%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-}
-
-.header-image-indian-point {
-  background-image: url("photos/indian-point.jpg");
   height: 40%;
   background-position: center;
   background-repeat: no-repeat;
@@ -303,7 +294,10 @@ body {margin:0;font-family:Arial}
   }
 
 /* Main Page Container by Nicholas Pretli on December 7, 2020 */
+<<<<<<< HEAD
 /* CSS concepts referenced from https://www.youtube.com/watch?v=T_DIpApkjwM */
+=======
+>>>>>>> ee7db1d41690ecf90a12359a629a08588d1d93d0
 .container{
   width: 90%;
   overflow: hidden;
@@ -313,7 +307,7 @@ body {margin:0;font-family:Arial}
 }
 .container ul{
   padding: 0px; 
-  margin:opx; 
+  margin:0px; 
 }
 
 .container ul li{
@@ -356,7 +350,7 @@ body {margin:0;font-family:Arial}
 /* CSS concepts referenced from https://w3schools.com */
 
 .footer {
-  font-family: 'century gothic'
+  font-family: 'century gothic';
   text-align: center;
   position: relative;
   left: 0;

@@ -34,7 +34,6 @@
     </button>
     <div class="dropdown-content">
       <a href="balsamlake.html">Balsam Lake Provincial Park</a>
-      <a href="indianpoint.html">Indian Point Provincial Park</a>
       <a href="kenreid.html">Ken Reid Conservation Area</a>
       <a href="qeiiwildlands.html">Queen Elizabeth II Wildlands Provincial Park</a>
 	  </div>
@@ -67,8 +66,11 @@ $(document).ready(function(){
 </script>
 <!--Edited by Eric Millan, December 6, 2020-->
 
-  <div id="maindescr">The QEII Wildlands Provincial Park is a unmaintained park, which means it is free to explore! The <b>Ganaraska Trail</b>, however, does pass through the park and there are several access points.</div>
-
+  <div id="maindescr">
+  The QEII Wildlands Provincial Park is an unmaintained park, which means it is free to explore! The <b>Ganaraska Trail</b>, however, does pass through the park and there are several access points.
+  Located nearly 90 kilometers north of Lindsay, QEII Wildlands Provincial Park (QEIIWPP) is a spectacular area to explore on foot or by canoe. Due to its primitive and unstaffed nature, this provincial park is quiet comparted its larger nearby cousin, Algonquin Park.<br><br> The park is characteristic of this area, a checkerboard of rock barren, wetlands and lakes. The Ganaraska Trail traverses a significant portion of the northern section of this park and is one of the best backcountry hiking trails available to Ontarians. 
+  Popular day use areas exist as well, with Victoria Falls t the eastern entrance and Devil Lake at the eastern trailhead. While exploring the eastern section of the park, you can also hike the Fire Tower Loop (former location of the Lutterworth Fire Tower).</div>
+  
 
 <!--Button fade/toggle
 by: Tayler Nichol
@@ -82,15 +84,20 @@ Adapted from w3 schools: https://www.w3schools.com/jquery/jquery_fade.asp-->
   <p class="imagecptn">Credit: Eric Millan, Fall 2018</p>
   </div>
   <p class="main">To download a detailed map of the area, please click the link below</p>
-  <div id="downloadButtons">  
+
+  <div id="downloadDiv">
+  <div class="downloadButtons">  
     <a href="photos/qe2-backcountry-hiking-canoe-routes.pdf" download="Image"> 
     <button id="mapDownload">Download Map</button> 
-    </a></div>
+    </a>
+    </div>
 
-    <div id="downloadButtons">  
-        <a href="https://ganaraska-hiking-trail.org/">
-        <button id="mapDownload">Learn More</button> 
-        </a></div>
+  <div class="downloadButtons">  
+      <a href="https://ganaraska-hiking-trail.org/">
+      <button id="mapDownload">Learn More</button> 
+      </a>
+      </div>
+  </div><!--Closing div for div downloadDiv -->
 
 </body>
 </html>
