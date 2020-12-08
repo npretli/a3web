@@ -156,8 +156,6 @@ code modified from https://www.w3schools.com/howto/howto_css_hero_image.asp*/
   position: relative;
 }
 
-body {margin:0;font-family:Arial}
-
 .topnav {
   overflow: hidden;
   background-color: #3292cf;
