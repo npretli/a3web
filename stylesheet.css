@@ -95,11 +95,11 @@ code modified to include buttons
   display: none; 
 }
 
-#downloadButtons {
+.downloadButtons {
   float: left;
 }
 
-#mapDownload {
+.mapDownload {
   background-color: rgb(159, 216, 213);
   border: none;
   color: black;
