@@ -81,6 +81,7 @@ h3{padding: 1%;
 .imagecptn{
   font-size: 12px;
 }
+<<<<<<< HEAD
 /*Download Buttons
 by: Eric Millan
 December 3, 2020
@@ -119,6 +120,8 @@ code modified to include buttons
   margin: 5px 50px;
   transition: 0.3s;
 }
+=======
+>>>>>>> 6606c71d2df110f09bc8810b71a453b48808a336
 
 /*Site Header
 by: Hayley Kennington
@@ -302,10 +305,7 @@ body {margin:0;font-family:Arial}
   }
 
 /* Main Page Container by Nicholas Pretli on December 7, 2020 */
-<<<<<<< HEAD
 /* CSS concepts referenced from https://www.youtube.com/watch?v=T_DIpApkjwM */
-=======
->>>>>>> ee7db1d41690ecf90a12359a629a08588d1d93d0
 .container{
   width: 90%;
   overflow: hidden;
@@ -313,9 +313,10 @@ body {margin:0;font-family:Arial}
   margin: 20px auto;
   padding: 20px; 
 }
+
 .container ul{
   padding: 0px; 
-  margin:0px; 
+  margin:opx; 
 }
 
 .container ul li{
@@ -334,17 +335,17 @@ body {margin:0;font-family:Arial}
 }
 
 .container ul li .title:hover{
-  background: #008000;
+  background: blue;
   color:white;
 } 
 
 .container ul li .title{
   font-family: 'century gothic';
-  font-weight: bold;
+  font-size:5vw;
   width: 100%;
   height: 50px; 
   line-height: 50px;
-  background:  #3292cf;
+  background: green;
   text-align: center; 
 }
 
@@ -352,22 +353,59 @@ body {margin:0;font-family:Arial}
   .container ul li{
     width:40%;
     margin-left: 50px;
-  }
 }
+
 /* Footer by Nicholas Pretli on December 7, 2020, 6:30 p.m */
 /* CSS concepts referenced from https://w3schools.com */
 
-.footer {
+.footer{
   font-family: 'century gothic';
   text-align: center;
   position: relative;
   left: 0;
   bottom: 0px;
   width: 100%;
-  background-color: #3292cf
+  background-color: #3292cf;
   color: white;
   text-align: center;
   padding: 0px;
- }
 }
-  
+
+/*Download Buttons
+by: Eric Millan
+December 3, 2020
+Idea taken from walkHighlands https://www.walkhighlands.co.uk/sutherland/ceannabeinne.shtml, 
+code modified to include buttons
+*/
+
+/*DIV BLOCKFOR DOWNLOAD BUTTONS, CENTERED*/
+.downloadDiv {
+  height: 25px;
+  position: relative;
+  top: auto;
+  bottom: auto;
+  padding: 10px;
+  background-color: #014869;
+  font-size: 16px;
+  margin: auto;
+  display: inline-block; 
+  width: 100%;
+}
+
+.downloadButtons {
+  float: center;
+  align-items: center;
+  margin: auto;
+  display: block;
+}
+
+.mapDownload {
+  background-color: rgb(159, 216, 213);
+  border: none;
+  color: black;
+  padding: 10% 10%;
+  text-align: center;
+  font-size: 16px;
+  margin: 5px 50px;
+  transition: 0.3s;
+}
