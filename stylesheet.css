@@ -107,7 +107,7 @@ code modified to include buttons
   align-items: center;
   margin: auto;
   display: block;
-  padding: 10px;
+  padding: 10px 10px 10px;
 }
 
 .mapDownload {
