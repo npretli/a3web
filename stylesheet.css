@@ -108,6 +108,8 @@ code modified to include buttons
   margin: auto;
   display: block;
   padding: 10px 10px 10px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .mapDownload {
