@@ -25,20 +25,14 @@ body, html {
 
 /*Trail page CSS - Added by Tayler Nichol, December 6*/
 h2{padding: 1%;
-  margin-block-start: 0em;
-  margin-block-end: 0em;
 }
 
 h3{padding: 1%;
-  margin-block-start: 0em;
-  margin-block-end: 0em;
 }
 #maindescr {
   font-size: 16px;
   text-align: center;
   padding: 2%;
-  margin-block-start: 0em;
-  margin-block-end: 0em;
 }
 .sub{
   font-size: 16px;
@@ -51,8 +45,6 @@ h3{padding: 1%;
   font-size: 16px;
   text-align: left;
   padding: 1%;
-  margin-block-start: 0em;
-  margin-block-end: 0em;
 }
 #trailtitle1{
   background-color:#014869; 
@@ -294,7 +286,7 @@ body {margin:0;font-family:Arial}
   }
 
 /* Main Page Container by Nicholas Pretli on December 7, 2020 */
-.container
+.container{
   width: 90%;
   overflow: hidden;
   background: skyblue;
@@ -303,7 +295,7 @@ body {margin:0;font-family:Arial}
 }
 .container ul{
   padding: 0px; 
-  margin:opx; 
+  margin:0px; 
 }
 
 .container ul li{
@@ -346,7 +338,7 @@ body {margin:0;font-family:Arial}
 /* Footer HTML & CSS from https://stackoverflow.com/questions/643879/css-to-make-html-page-footer-stay-at-bottom-of-the-page-with-a-minimum-height-b */
 
 .footer {
-  font-family: 'century gothic'
+  font-family: 'century gothic';
   text-align: center;
   position: relative;
   left: 0;
