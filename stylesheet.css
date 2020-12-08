@@ -316,7 +316,8 @@ by: Nicholas Pretli
 /* Main Page Container by Nicholas Pretli on December 7, 2020 */
 /* CSS concepts referenced from https://www.youtube.com/watch?v=T_DIpApkjwM */
 .mainpagetext{
-  text-align: center
+  text-align: center;
+  padding: 15px;
 }
 
 .container{
