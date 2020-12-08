@@ -90,11 +90,11 @@ code modified to include buttons
 
 /*DIV BLOCKFOR DOWNLOAD BUTTONS, CENTERED*/
 .downloadDiv {
-  height: 50px;
+  height: 25px;
   position: relative;
   top: auto;
   bottom: auto;
-  padding: 5%;
+  padding: 10px;
   background-color: #014869;
   font-size: 16px;
   margin: auto;
