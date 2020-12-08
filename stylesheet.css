@@ -88,15 +88,27 @@ Idea taken from walkHighlands https://www.walkhighlands.co.uk/sutherland/ceannab
 code modified to include buttons
 */
 
+<<<<<<< HEAD
 #downloadDiv {
   padding: 5%;
+=======
+/*DIV BLOCKFOR DOWNLOAD BUTTONS, CENTERED*/
+.downloadDiv {
+  height: 25px;
+  position: relative;
+  top: auto;
+  bottom: auto;
+  padding: 10px;
+  background-color: #014869;
+>>>>>>> 808761a7429330a5f5f627df29029f125a220db1
   font-size: 16px;
   margin: auto;
   display: inline-block; 
+  width: 100%;
 }
 
 .downloadButtons {
-  float: left;
+  float: center;
   align-items: center;
   margin: auto;
   display: block;
@@ -106,10 +118,10 @@ code modified to include buttons
   background-color: rgb(159, 216, 213);
   border: none;
   color: black;
-  padding: 10px 32px;
+  padding: 10% 10%;
   text-align: center;
   font-size: 16px;
-  margin: 4px 2px;
+  margin: 5px 50px;
   transition: 0.3s;
 }
 
