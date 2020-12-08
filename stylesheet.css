@@ -18,9 +18,10 @@ body, html {
   height: auto;
 }
 
-p{
+.p{
   font-family:Arial, Helvetica, sans-serif;
-  padding: 10px;
+  font-size: 10vw;
+  padding: 2px;
 }
 
 /*Trail page CSS - Added by Tayler Nichol, December 6*/
@@ -253,45 +254,6 @@ code modified from https://www.w3schools.com/howto/howto_css_hero_image.asp*/
 
 }
 
-/*Download Buttons
-by: Eric Millan
-December 3, 2020
-Idea taken from walkHighlands https://www.walkhighlands.co.uk/sutherland/ceannabeinne.shtml, 
-code modified to include buttons
-*/
-
-/*DIV BLOCKFOR DOWNLOAD BUTTONS, CENTERED*/
-.downloadDiv {
-  height: 25px;
-  position: relative;
-  top: auto;
-  bottom: auto;
-  padding: 10px;
-  background-color: #014869;
-  font-size: 16px;
-  margin: auto;
-  display: inline-block; 
-  width: 100%;
-}
-
-.downloadButtons {
-  float: center;
-  align-items: center;
-  margin: auto;
-  display: block;
-}
-
-.mapDownload {
-  background-color: rgb(159, 216, 213);
-  border: none;
-  color: black;
-  padding: 10% 10%;
-  text-align: center;
-  font-size: 16px;
-  margin: 5px 50px;
-  transition: 0.3s;
-}
-
 /* Static map of Kawartha Lakes, Ontario 
 by: Nicholas Pretli
  December 7, 2020
@@ -319,9 +281,7 @@ by: Nicholas Pretli
   text-align: center;
   padding: 15px;
 }
-.maintext{
-  padding: 15px
-}
+
 .container{
   width: 90%;
   overflow: hidden;
@@ -410,73 +370,20 @@ code modified to include buttons
 */
 
 /*DIV BLOCKFOR DOWNLOAD BUTTONS, CENTERED*/
-.downloadDiv {
-  height: 25px;
-  width: 100%;
-  align-items: center;
-  margin: 0;
-  padding: 0;
-  background-color: #3292cf;
-  position: relative;
-}
-
-.downloadButtons {
-  align-items: center;
-  margin-left: auto;
-  margin-right: auto;
-  position: absolute;
-  display: inline-block;
-  padding: 10px 10px 10px;
-}
-
-.mapDownload {
-  background-color: rgb(159, 216, 213);
+.dlbtn {
+  background-color: #3292CF;
   border: none;
-  color: black;
-  padding: 10% 10%;
-  text-align: center;
-  font-size: 10%;
-  margin: 5px 50px;
-}
-
-.downloadDiv {
-  height: 30px;
-  width: 100%;
-  align-items: center;
-  margin: 0;
-  padding: 5%;
-  background-color: #3292cf;
-  position: relative;
-}
-
-.downloadDiv2 {
-  height: 15px;
-  width: 100%;
-  margin: 0;
-  padding: 5%;
-  display: flex;
-  justify-content: center;
-  background-color: #3292cf;
-  position: relative;
   color: white;
-  text-align: center;
-  font-size:150%;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 20px;
+  width: 100%;
 }
 
-.downloadbutton {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.dlbtn:hover {
+  background-color: RoyalBlue;
 }
 
-.child {
-  display: inline-block;
-  color: white;
-  margin: 5px;
-  font-size: 200%;
-  background-color: #014869;
-  padding: 5px;
-}
 @media screen and (max-width: 600px) {
   .container ul li{
     width:40%;
