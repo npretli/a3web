@@ -312,7 +312,24 @@ body {margin:0;font-family:Arial}
   .container ul li{
     width:40%;
     margin-left: 50px;
-  }
+}
+}
+
+/* Footer by Nicholas Pretli on December 7, 2020, 6:30 p.m */
+/* CSS concepts referenced from https://w3schools.com */
+
+.footer{
+  font-family: 'century gothic';
+  text-align: center;
+  position: relative;
+  left: 0;
+  bottom: 0px;
+  width: 100%;
+  background-color: #3292cf;
+  color: white;
+  text-align: center;
+  padding: 0px;
+}
 
 /*Download Buttons
 by: Eric Millan
@@ -351,21 +368,4 @@ code modified to include buttons
   font-size: 16px;
   margin: 5px 50px;
   transition: 0.3s;
-}
-
-
-/* Footer by Nicholas Pretli on December 7, 2020, 6:30 p.m */
-/* CSS concepts referenced from https://w3schools.com */
-
-.footer {
-  font-family: 'century gothic';
-  text-align: center;
-  position: relative;
-  left: 0;
-  bottom: 0px;
-  width: 100%;
-  background-color: #3292cf;
-  color: white;
-  text-align: center;
-  padding: 0px;
 }
