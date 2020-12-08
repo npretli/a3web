@@ -2,10 +2,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<!-- Single external CSS document --> 
+<!-------------Single external CSS document ----------------> 
 <link rel="stylesheet" type="text/css" href="stylesheet.css">
-<!-- This is the title of the webpage -->
-<title>Kawartha Outdoors</title>
+
+<!--------------Webpage Title---------------->
+<!----------- By: Nicholas Pretli ------------->
+<!------------ December 7, 2020 --------------->
+<title>Kawartha Lakes Hiking</title>
 </head>
 <body>
   <!---Site Header
@@ -14,14 +17,14 @@
 <body>
 <div class="header-image">              
     <div class="header-text">
-      <h1><i>Kawartha Hiking</i></h1>      
+      <h1><i>Kawartha Lakes Hiking</i></h1>      
     </div>
   </div>
   <!--Site Header End November 24, 2020 9:15 a.m.-->
 
- <!---Site Header
-  by: Nicholas Pretli
-  December 4, 2020 -->
+ <!-- Responsive navigation bar with relative links -->
+<!----------- By: Nicholas Pretli -------------------->
+<!------------  December 4, 2020 --------------------->
 <div class="topnav" id="myTopnav">
   <a href="index.html" class="active">Home</a>
   <a href="regionalinfo.html">Regional Info</a>
@@ -40,20 +43,23 @@
   <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
 </div>
 
-<!--------Dropdown navbar-------->
+<!--------------Dropdown navbar---------------->
+<!----------- By: Nicholas Pretli ------------->
+<!------------ December 7, 2020 --------------->
 <script>
 function myFunction() {                  
   var x = document.getElementById("myTopnav");
   if (x.className === "topnav") {
     x.className += " responsive";
-  } else {
-    x.className = "topnav";
-  }
+  } 
 }
 </script>
 <div>	
 
-<!---------Preliminary information------------->
+<!-------- Preliminary information ------------>
+<!----------- By: Tayler Nichol -------------->
+<!------------ December 7, 2020 --------------->
+
   <div class = "mainpagetext">
     <h2>The Kawartha Lakes Hiking Project</h2>
     <p>The Kawartha Lakes region in Ontario has over 600 km of trails, many located within local conservation areas and the Ontario Parks system. This website is intended to provide information about a selection of these hiking trails and other outdoor activities available in the parks. </p>
@@ -63,7 +69,7 @@ function myFunction() {
     <p>The natural landscapes, trails, and campgrounds available in Ontario’s Parks and Conservation Areas are a valuable resource for the province in many ways, from the protection of the environment and ecosystem services, to education and tourism. </p>
   </div>
   
-<!---------Container with div elements, each containing a relative link to select hiking pages -------->
+<!-------- Container with div elements, each containing a relative link to select hiking pages -------->
   <div class = "container">
     <ul>
     <li> <div class="title">Regional Info</div> </li>
@@ -77,12 +83,13 @@ function myFunction() {
   <p>Test</p>
 </div>
 
-<!-------Footer by: Nicholas Pretli
-  December 4, 2020 6:30 p.m. ------>
-  
+<!------------- Footer message ---------------->
+<!----------- By: Nicholas Pretli ------------->
+<!------------ December 7, 2020 --------------->
+
   <div class="footer">
-  <p>COMING SOON! Beginning in May 2021, we will offer guided tours of a Kawartha Lakes park of your choice.</p>
-  <p>For more information, please contact us at (519) 538-4490 or npretli@flemingcollege.ca</p>
+  <p>COMING SOON! Beginning in May 2021, we will be offering guided tours of a Kawartha Lakes park of your choice.</p>
+  <p>For more information, please contact us at (519) 538-4490 or at npretli@flemingcollege.ca</p>
   </div>
 </body>
 </html>
