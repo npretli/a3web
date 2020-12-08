@@ -99,7 +99,7 @@ code modified to include buttons
   font-size: 16px;
   margin: auto;
   display: inline-block; 
-  width: auto;
+  width: 100%;
 }
 
 .downloadButtons {
@@ -107,6 +107,7 @@ code modified to include buttons
   align-items: center;
   margin: auto;
   display: block;
+  padding: 10px 10px 10px;
 }
 
 .mapDownload {
