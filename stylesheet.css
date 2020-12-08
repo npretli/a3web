@@ -43,7 +43,7 @@ h3{padding: 1%;
 
 .main{
   font-size: 16px;
-  text-align: left;
+  text-align: center;
   padding: 1%;
 }
 #trailtitle1{
@@ -155,8 +155,6 @@ code modified from https://www.w3schools.com/howto/howto_css_hero_image.asp*/
   background-size: cover;
   position: relative;
 }
-
-body {margin:0;font-family:Arial}
 
 .topnav {
   overflow: hidden;
@@ -473,7 +471,7 @@ code modified to include buttons
   font-size: 200%;
   background-color: #014869;
   padding: 5px;
-
+}
 @media screen and (max-width: 600px) {
   .container ul li{
     width:40%;
